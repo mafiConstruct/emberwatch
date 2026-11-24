@@ -17,7 +17,7 @@ The fire decays constantly, so standing still is not a plan. Wood does not come 
 
 ## Design notes
 
-Scene 1 is one night, one fire, two entities (falling wood, frost moths). The intended decision texture: every trip away from the fire costs flame, every wave spent early is a wave you do not have when a drift arrives. Balance was tuned against scripted policies: camping, feed-only and wave-spam all lose or win badly; only attentive timing wins well. Runs are reproducible with `?seed=N`.
+Scene 1 is one night, one fire, two entities (falling wood, frost moths). The intended decision texture: every trip away from the fire costs flame, every wave spent early is a wave you do not have when a drift arrives. Balance was checked against scripted policies across seeds: camping and feed-only lose; wave-spam can survive to dawn but takes heavy damage and a poor rank; attentive timing also wins, with far less damage. Results vary by seed. Runs are reproducible with `?seed=N`.
 
 ## License
 
